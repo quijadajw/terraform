@@ -12,4 +12,6 @@ terraform apply -target [specified resource(s)]
 ##Destroy created infrastructure##
 terraform destroy
 terraform destroy -target [specified resource(s)]
+
+##Use to specify and deactivate code## 
 /* <code> */
