@@ -1,0 +1,15 @@
+##Import Terraform Providers Modules & Plugins##
+terrafornm init
+
+##Provide code overview of what will be changed/deployed##
+terraform plan
+terraform plan -target [specified resource(s)]
+
+##Apply code to create infrastructure##
+terraform apply 
+terraform apply -target [specified resource(s)]
+
+##Destroy created infrastructure##
+terraform destroy
+terraform destroy -target [specified resource(s)]
+/* <code> */
