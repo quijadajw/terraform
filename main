@@ -13,5 +13,8 @@ terraform apply -target [specified resource(s)]
 terraform destroy
 terraform destroy -target [specified resource(s)]
 
+##Refresh current state of infrastructure##
+terraform refresh
+
 ##Use to specify and deactivate code## 
 /* <code> */
