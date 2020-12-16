@@ -6,7 +6,7 @@ provider "<insert provider>"" {
 }
 
 ##Version number arguments##
->=1.0 = Greater than version 1.0
-<=1.0 = Less than version 1.0
-~>1.0 = Any version witin the 1.X range
->=1.0,<=2.0 = Any version between 1.0 and 2.0
+">=1.0" = Greater than version 1.0
+"<=1.0" = Less than version 1.0
+"~>1.0" = Any version witin the 1.X range
+">=1.0,<=2.0" = Any version between 1.0 and 2.0
