@@ -4,11 +4,11 @@ terrafornm init
 ##Provides all informaton in a terraform state file in an easier to read format##
 terraform show
 
-##Provide code overview of what will be changed/deployed##
+##Provides IaC overview of what will be changed/deployed##
 terraform plan
 terraform plan -target [specified resource(s)]
 
-##Apply code to create infrastructure and or change current state of infrastructure to match desired state##
+##Apply IaC to create infrastructure and or change current state of infrastructure to match desired state##
 terraform apply 
 terraform apply -target [specified resource(s)]
 
