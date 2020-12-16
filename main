@@ -1,6 +1,10 @@
 ##Import HashiCorp Distributed Terraform Providers Plugins##
 terrafornm init
 
+Note: For Third-party providers you will need to manually download and install the plugins in the following directory:
+Windows - %APPDATA%\terraform.d\plugins
+MacOS & Linux - ~/.terraform.d/plugins 
+
 ##Provides all informaton in a terraform state file in an easier to read format##
 terraform show
 
