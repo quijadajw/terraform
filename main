@@ -25,4 +25,5 @@ terraform refresh
 ##Explicitly set provider version##
 provider "<insert provider>"" {
   region    = "<insert region>
+  <Authentication> - "<insert authentication credentials>"
   version   = "<insert version to prevent download of newer version>"
