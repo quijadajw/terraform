@@ -13,12 +13,14 @@ terraform plan
 terraform plan -target [specified resource(s)]
 
 ##Apply IaC to create infrastructure and or change current state of infrastructure to match desired state##
-terraform apply 
+terraform apply
+terraform apply -auto-approve ##confirmation will not be shown##
 terraform apply -target [specified resource(s)]
 
 ##Destroy created infrastructure##
 terraform destroy
-terraform destroy -target [specified resource(s)]
+terraform destroy -auto-approve
+terraform destroy [-auto-approve] -target [insert specified resource(s)]
 
 ##Refresh current state of infrastructure [check TFstate file for more]##
 terraform refresh
