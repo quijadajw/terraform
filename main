@@ -1,4 +1,4 @@
-##Import Terraform Providers Modules & Plugins##
+##Import HashiCorp Distributed Terraform Providers Plugins##
 terrafornm init
 
 ##Provides all informaton in a terraform state file in an easier to read format##
