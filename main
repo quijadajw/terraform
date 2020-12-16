@@ -5,7 +5,7 @@ terrafornm init
 terraform plan
 terraform plan -target [specified resource(s)]
 
-##Apply code to create infrastructure##
+##Apply code to create infrastructure and or change current state of infrastructure to match desired state##
 terraform apply 
 terraform apply -target [specified resource(s)]
 
