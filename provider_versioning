@@ -10,3 +10,5 @@ provider "<insert provider>"" {
 "<=1.0" = Less than version 1.0
 "~>1.0" = Any version witin the 1.X range
 ">=1.0,<=2.0" = Any version between 1.0 and 2.0
+
+Note: Always check Terraform version as newer Terraform versions might not be compatible with specified older versions of provider plugins 
