@@ -1,6 +1,9 @@
 ##Import Terraform Providers Modules & Plugins##
 terrafornm init
 
+##Provides all informaton in a terraform state file in an easier to read format##
+terraform show
+
 ##Provide code overview of what will be changed/deployed##
 terraform plan
 terraform plan -target [specified resource(s)]
